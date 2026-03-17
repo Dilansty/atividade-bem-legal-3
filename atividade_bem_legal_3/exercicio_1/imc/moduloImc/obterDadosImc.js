@@ -48,11 +48,11 @@ function obterDados(nome, peso, altura ) {
 
                 entradaDeDados.close()
                 
-            })//Fecha a entrada da entrada de dados da altura do paciente
+            })//Fecha a entrada de dados da altura do paciente
         
-        })//Fecha a entrada da entrada de dados do peso do paciente
+        })//Fecha a entrada de dados do peso do paciente
     
-    })//Fecha a entrada da entrada de dados do nome do paciente
+    })//Fecha a entrada de dados do nome do paciente
 
 }//fim da função obterDados
 

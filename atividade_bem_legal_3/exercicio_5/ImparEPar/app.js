@@ -7,7 +7,7 @@
 
 
 // importa a função que obtém os dados do usuário
-const { obterDados } = require('./moduloParesImpares/obterDados')
+const { obterDados } = require('./moduloImparPar/obterDadoImparPar')
  
 console.log('****** Iniciando o Sistema de Pares e Impares ******\n')
  

@@ -9,7 +9,7 @@
 const readline = require('readline')
 
 // importa o arquivo que contém a função de calcular pares e ímpares
-const calcularParesImpares = require('./calcularParesImpares')
+const calcularParesImpares = require('./calcularImparPar')
 
 // função responsável por obter e tratar os dados do usuário
 function obterDados() {

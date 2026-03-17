@@ -65,12 +65,12 @@ function obterDados() {
     // converte o número para BigInt antes de enviar para o cálculo (para não perder dígitos)
     let resultado = calcularFatorial.calcularFatorial(BigInt(numero))
  
-    // exibe o resultado final no console
+    // exibe o resultado final
     console.log('*******************************\n')
     console.log('O fatorial de ' + numero + ' e igual a ' + resultado)
      console.log('\n*******************************')
      
-    // encerra a interface de leitura após exibir o resultado
+    // finaliza a interface de leitura
     entradaDeDados.close()
  
   })//fim da função obterDados

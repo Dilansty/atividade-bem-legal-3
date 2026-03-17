@@ -14,8 +14,8 @@ function calcularFatorial(numeroFatoriado) {
  
   // repetição que começa no número informado e vai diminuindo até chegar em 1
   for (let numeroSubtraido = numeroFatoriado; numeroSubtraido >= 1; numeroSubtraido--) {
-   
-    resultado = resultado * numeroSubtraido // multiplica o resultado pelo número atual do loop
+   // multiplica o resultado pelo número atual do loop
+    resultado = resultado * numeroSubtraido 
   
   }
  
